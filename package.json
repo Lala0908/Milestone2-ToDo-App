@@ -1,16 +1,25 @@
 {
-  "name": "milsone2-to-do-app",
+  "name": "milestone2-todo-app",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "dev": "npx nodemon index.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lala0908/Milestone2-ToDo-App.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lala0908/Milestone2-ToDo-App/issues"
+  },
+  "homepage": "https://github.com/Lala0908/Milestone2-ToDo-App#readme",
   "dependencies": {
     "dotenv": "^16.0.3",
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "mongoose": "^7.0.5"
   }
 }
