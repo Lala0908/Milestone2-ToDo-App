@@ -4,6 +4,8 @@ require("dotenv").config();
 const todoRoutes = require('./controllers/Todo')
 
 const app = express();
+
+//Middleware
 app.use(express.json())
 
 //routes
