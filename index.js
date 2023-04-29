@@ -7,7 +7,7 @@ const app = express();
 app.use(express.json())
 
 //routes
-app.use('/todos', todoRoutes)
+//app.use('/todos', todoRoutes)
 app.use('/todo', todoRoutes)
 
 

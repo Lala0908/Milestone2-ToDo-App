@@ -14,6 +14,10 @@ const TodoSchema = new mongoose.Schema({
     type: String,
     default: Date.now(),
   },
+  userID: {
+    type: mongoose.Schema.Types.ObjectId,
+    default: new mongoose.Types.ObjectId(),
+  }
 });
 
 module.exports = mongoose.model("Todo", TodoSchema);
