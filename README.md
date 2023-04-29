@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 Creating ToDo App
 
 1st - MongoDB - set up Database:
@@ -19,6 +18,3 @@ Get-Post-Patch-Delete (CRUD)
 
 6th - Deploy Express App - Vercel
 
-=======
-Creating ToDo Appgut
->>>>>>> c7aa72e5bb080d1e6a44914e642cd580260afd68
