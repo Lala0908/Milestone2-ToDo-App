@@ -1,13 +1,12 @@
-const mongoose = require("mongoose")
+import Todo from ('../models/todo')
+const router = require("express").Router
 
 
-const ToDoSchema = new mongoose.Schema ({
-    todo: {
-        type: String,
-        required: true 
-            
-        },
-    
+app.delete('/todo/delete/:id', async (req, res) => {
+    const result = await Todo.findByIdAndDelete(req.params.id);
+
+    res.json(result);
 })
 
-module.exports = new mongoose.model('Todo', TodoSchema)
+
+module.exports = router;
