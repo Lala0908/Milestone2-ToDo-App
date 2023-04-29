@@ -2,7 +2,7 @@
   "name": "milestone2-todo-app",
   "version": "1.0.0",
   "engines": {
-    "node": ">=16.17.1"
+    "node": "18.9.1"
   },
   "description": "",
   "main": "index.js",
