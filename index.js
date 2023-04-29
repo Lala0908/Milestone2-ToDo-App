@@ -2,11 +2,26 @@ const express = require('express')
 const mongoose = require('mongoose')
 require('dotenv').config()
 
-const app = express()
+const Todo = require('./models/Todo');
 
-//Routes
+const app = express();
 
-app.use(require("./routes/index"))
+
+//routes
+
+
+
+//db connection
+mongoose.set('strictQuery', true)
+mongoose.connect(process.env.MONGO_URI, { userNewUrlParser: true, userUnifiedTopology: true })
+    .then(() => console.log ('DB connected'))
+    .catch(err => console.error (err));
+
+   
+
+ 
+    
+  
 
 const PORT = process.env.PORT
 
