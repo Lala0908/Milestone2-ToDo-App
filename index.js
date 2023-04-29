@@ -2,11 +2,12 @@ const express = require('express')
 const mongoose = require('mongoose')
 require('dotenv').config()
 
-const todo = require('./models/todo')
+const Todo = require('./models/Todo');
 
-const app = express()
+const app = express();
 
 
+//routes
 
 
 
