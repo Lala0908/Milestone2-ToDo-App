@@ -9,17 +9,19 @@ router.get("/", async (req, res) => {
 });
 
 router.post("/", async (req, res) => {
+  console.log(req.body)
   const todo = await Todo.create({
     text: req.body.text,
     complete: req.body.complete,
     userID: req.body.userID,
   });
   res.json(todo);
-  //res.sendStatus(200)
+  // res.sendStatus(200)
 });
 
 //update, auto complete
 router.put("/complete/:id", async (req, res) => {
+  //res.sendStatus(200)
   const todo = await Todo.findById(req.params.id);
   todo.complete = !todo.complete;
   todo.save();

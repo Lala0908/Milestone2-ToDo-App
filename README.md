@@ -4,7 +4,7 @@ Creating ToDo App
 Title - 
 user (all of their todos + user needs ID)
 text - due date - completion status
-Functionality: Add - Edit - Delete 
+Functionality: Add - Complete - Delete 
 Space for text
 
 2nd - set up express app 
