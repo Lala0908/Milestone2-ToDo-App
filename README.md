@@ -1,20 +1,20 @@
 Creating ToDo App
 
-1st - MongoDB - set up Database:
-Title - 
-user (all of their todos + user needs ID)
-text - due date - completion status
+MongoDB - set up Database
+
+Set up CRUD
 Functionality: Add - Complete - Delete 
-Space for text
 
-2nd - set up express app 
+Set up express app 
 
-3rd - connect express app to Mongo
+Set up Cors
 
-4th - Create EndPoint
+Create API, Controllers and Models
+
+Connect express app to Mongo
+
+Create EndPoint
 Get-Post-Patch-Delete (CRUD)
 
-5th - Frontend
-
-6th - Deploy Express App - Vercel
+ Deploy Express App - Vercel
 
